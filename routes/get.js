@@ -1,7 +1,7 @@
 const router = require('express').Router()
-// const { getAllForms,getForm } = require('../controllers/get')
+const { get_column_list } = require('../controllers/get')
 
-// router.get('/get_all_forms', getAllForms)
+router.get('/get_column_list', get_column_list)
 // router.get('/get_form', getForm)
 
 
