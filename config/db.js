@@ -1,4 +1,4 @@
-const { sequelize } = require('nocodeAi-helpers')
+const { sequelize } = require(process.env.nocode_helpers)
 const config = require('./config')
 
 const connectDB = (cloudConfig = config) => sequelize.init(cloudConfig)

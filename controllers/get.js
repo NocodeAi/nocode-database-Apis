@@ -1,5 +1,5 @@
 const { nocodeAi } = require('../config/db')
-const { runQuery, apiResponse } = require('nocodeAi-helpers')
+const { runQuery, apiResponse } = require(process.env.nocode_helpers)
 const { v4: uuidv4 } = require('uuid')
 
 
